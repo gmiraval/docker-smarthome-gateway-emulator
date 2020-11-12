@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<p>
+    <mac v="*"/>
+    <cmds>
+        <referer v="panel/notify"/>
+        <cmd a="getCaptureEvent" id="*">
+            <ret>1</ret>
+            <m>OK</m>
+            <x>
+                <size v="0"/>
+            </x>
+        </cmd>
+    </cmds>
+</p>

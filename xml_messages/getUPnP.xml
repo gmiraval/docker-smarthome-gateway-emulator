@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+    <mac v="*"/>
+    <cmds>
+        <referer v="panel/run"/>
+        <cmd a="getUPnP" id="*">
+            <ret>1</ret><m>OK</m>
+            <x>
+                <upnpdev v="0"/>
+                <portfw v="0"/>
+                <webport v="80"/>
+                <webextport v="8080"/>
+            </x>
+        </cmd>
+    </cmds>
+</p>

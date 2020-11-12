@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+    <mac v="*"/>
+    <cmds>
+        <referer v="panel/run"/>
+        <cmd a="setArea" id="*">
+            <ret>1</ret><m>OK</m>
+        </cmd>
+    </cmds>
+</p>

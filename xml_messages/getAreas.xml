@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+    <mac v="*"/>
+    <cmds>
+        <referer v="panel/run"/>
+        <cmd a="getAreas" id="*">
+            <ret>1</ret><m>OK</m>
+            <x>
+                <area>
+                    <no v="1"/>
+                    <mode v="0"/>
+                    <mode_time v="1">
+                        <entry1 v="30"/>
+                        <entry2 v="0"/>
+                        <exit v="30"/>
+                    </mode_time>
+                    <mode_time v="2">
+                        <entry1 v="30"/>
+                        <entry2 v="0"/>
+                        <exit v="30"/>
+                    </mode_time>
+                    <mode_time v="3">
+                        <entry1 v="0"/>
+                        <entry2 v="0"/>
+                        <exit v="0"/>
+                    </mode_time>
+                    <mode_time v="4">
+                        <entry1 v="0"/>
+                        <entry2 v="0"/>
+                        <exit v="0"/>
+                    </mode_time>
+                    <doorchime_snd v="normal"/>
+                    <entimefull_snd v="normal"/>
+                    <extimefull_snd v="normal"/>
+                    <entimehome_snd v="normal"/>
+                    <extimehome_snd v="normal"/>
+                    <warning_snd v="normal"/>
+                    <enex_last_snd_time v="0"/>
+                    <final_door v="0"/>
+                    <arm_fault_type v="0"/>
+                    <tamper_alarm v="0"/>
+                    <alarm_len v="180"/>
+                    <su_check v="0"/>
+                    <su_t v="0"/>
+                </area>
+            </x>
+        </cmd>
+    </cmds>
+</p>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+    <mac v="*"/>
+    <cmds>
+        <referer v="panel/run"/>
+        <cmd a="getDev" id="*">
+            <ret>1</ret><m>OK</m>
+            <x>
+                <ver v="HPGW 0.0.2.7H HPGW-L2-XA16 2.1.2.5.1"/>
+                <nver v="HPGW 0.0.2.7H"/>
+                <aver v="HPGW-L2-XA16"/>
+                <gver v=""/>
+                <zver v="2.1.2.5.1"/>
+                <zwver v="Z-Wave 3.95"/>
+                <uptime v="1292357"/>
+            </x>
+        </cmd>
+    </cmds>
+</p>

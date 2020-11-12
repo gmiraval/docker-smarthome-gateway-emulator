@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+    <mac v="*"/>
+    <cmds>
+        <referer v="panel/run"/>
+        <cmd a="getDateTime" id="*">
+            <ret>1</ret><m>OK</m>
+            <x>
+                <date v="2015/03/11"/>
+                <time v="18:14:45"/>
+                <timezone v="Europe/London"/>
+                <ntpsync v="0"/>
+                <ntpsvr v="pool.ntp.org"/>
+            </x>
+        </cmd>
+    </cmds>
+</p>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<p>
+    <mac v="*"/>
+    <cmds>
+        <referer v="panel/init"/>
+        <cmd a="getPanel" id="*">
+            <ret>1</ret><m>OK</m>
+            <x>
+                <acfail v="0"/>
+                <battery v="0"/>
+                <tamper v="0"/>
+                <jam v="0"/>
+                <rssi v="9"/>
+                <model v="HPGW"/>
+                <ver v="0.0.2.7H"/>
+                <rfver v="HPGW-L2-XA16"/>
+                <zbver v="2.1.2.5.1"/>
+                <zwver v="Z-Wave 3.95"/>
+                <ip v="192.168.0.42"/>
+            </x>
+        </cmd>
+    </cmds>
+</p>

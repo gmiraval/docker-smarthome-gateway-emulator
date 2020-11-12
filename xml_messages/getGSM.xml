@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+    <mac v="*"/>
+    <cmds>
+        <referer v="panel/run"/>
+        <cmd a="getGSM" id="*">
+            <ret>1</ret><m>OK</m>
+            <x>
+                <imei v=""/>
+                <imsi v=""/>
+                <operator v=""/>
+                <rssi v="0"/>
+                <gprs_apn v=""/>
+                <gprs_user v=""/>
+                <gprs_passwd v=""/>
+                <mms_apn v=""/>
+                <mms_user v=""/>
+                <mms_passwd v=""/>
+                <mms_proxy v=""/>
+                <mms_mmsc v=""/>
+                <smskey v=""/>
+                <sms_pword v="PROG"/>
+                <two_way_sp v="1,4096,5792,8192,11584,8230,4,0"/>
+                <two_way_mic v="2,26028"/>
+                <simcheck v="1"/>
+            </x>
+        </cmd>
+    </cmds>
+</p>

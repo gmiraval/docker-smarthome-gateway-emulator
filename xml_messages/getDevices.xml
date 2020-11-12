@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+    <mac v="*"/>
+    <cmds>
+        <referer v="panel/run"/>
+        <cmd a="getDevices" id="*">
+            <ret>1</ret><m>OK</m>
+            <x>
+                <z>
+                    <area v="1"/>
+                    <no v="4"/>
+                    <ty v="37"/>
+                    <su v="0"/>
+                    <n v="Keypad"/>
+                    <id v="RF:00050170"/>
+                    <id2 v=""/>
+                    <group v="0x0"/>
+                    <st v="0x2"/>
+                    <status_time v="2020-01-01 01:00:00"/>
+                    <status_rssi v="9"/>
+                    <scond_bypass v="0"/>
+                    <schar_latch_rpt v="1"/>
+                    <schar_whole_area v="0"/>
+                    <schar_always_on v="0"/>
+                    <schar_set_unset v="0"/>
+                    <stype_set_unset v="0"/>
+                    <schar_24hr v="0"/>
+                    <sresp_24hr v="0"/>
+                    <sresp_trigger v="0"/>
+                    <sresp_panic v="10"/>
+                    <sresp_fire v="12"/>
+                    <sresp_medical v="7"/>
+                    <sresp_emergency v="11"/>
+                    <sresp_arm v="0"/>
+                    <sresp_home v="0"/>
+                    <sresp_disarm v="0"/>
+                    <sresp_switch_on v="0"/>
+                    <sresp_switch_off v="0"/>
+                    <mode_resp v="0">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="1">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="2">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="3">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="4">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                </z>
+                <z>
+                    <area v="1"/>
+                    <no v="1"/>
+                    <ty v="4"/>
+                    <su v="1"/>
+                    <n v="Entry Door"/>
+                    <id v="RF:0068fc10"/>
+                    <id2 v=""/>
+                    <group v="0x0"/>
+                    <st v="0x0"/>
+                    <status_time v="2015-03-16 08:22:22"/>
+                    <status_rssi v="9"/>
+                    <status_open v="0"/>
+                    <scond_bypass v="0"/>
+                    <schar_latch_rpt v="1"/>
+                    <schar_whole_area v="0"/>
+                    <schar_always_on v="0"/>
+                    <schar_set_unset v="0"/>
+                    <stype_set_unset v="0"/>
+                    <schar_24hr v="0"/>
+                    <sresp_24hr v="0"/>
+                    <sresp_trigger v="0"/>
+                    <sresp_panic v="10"/>
+                    <sresp_fire v="12"/>
+                    <sresp_medical v="7"/>
+                    <sresp_emergency v="11"/>
+                    <sresp_arm v="0"/>
+                    <sresp_home v="0"/>
+                    <sresp_disarm v="0"/>
+                    <sresp_switch_on v="0"/>
+                    <sresp_switch_off v="0"/>
+                    <mode_resp v="0">
+                        <mode v="3"/>
+                        <entry v="3"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="1">
+                        <mode v="1"/>
+                        <entry v="1"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="2">
+                        <mode v="1"/>
+                        <entry v="1"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="3">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="4">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                </z>
+                <z>
+                    <area v="1"/>
+                    <no v="3"/>
+                    <ty v="2"/>
+                    <su v="0"/>
+                    <n v="Keychain"/>
+                    <id v="RF:00960300"/>
+                    <id2 v=""/>
+                    <group v="0x0"/>
+                    <st v="0x0"/>
+                    <status_time v="2020-01-01 01:00:00"/>
+                    <status_rssi v="-1"/>
+                    <scond_bypass v="0"/>
+                    <schar_latch_rpt v="1"/>
+                    <schar_whole_area v="0"/>
+                    <schar_always_on v="0"/>
+                    <schar_set_unset v="0"/>
+                    <stype_set_unset v="0"/>
+                    <schar_24hr v="0"/>
+                    <sresp_24hr v="0"/>
+                    <sresp_trigger v="0"/>
+                    <sresp_panic v="10"/>
+                    <sresp_fire v="12"/>
+                    <sresp_medical v="7"/>
+                    <sresp_emergency v="11"/>
+                    <sresp_arm v="0"/>
+                    <sresp_home v="0"/>
+                    <sresp_disarm v="0"/>
+                    <sresp_switch_on v="0"/>
+                    <sresp_switch_off v="0"/>
+                    <mode_resp v="0">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="1">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="2">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="3">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="4">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                </z>
+                <z>
+                    <area v="1"/>
+                    <no v="2"/>
+                    <ty v="9"/>
+                    <su v="1"/>
+                    <n v="Motion"/>
+                    <id v="RF:ac5fc030"/>
+                    <id2 v=""/>
+                    <group v="0x0"/>
+                    <st v="0x0"/>
+                    <status_time v="2020-01-01 01:00:00"/>
+                    <status_rssi v="9"/>
+                    <scond_bypass v="0"/>
+                    <schar_latch_rpt v="0"/>
+                    <schar_whole_area v="0"/>
+                    <schar_always_on v="0"/>
+                    <schar_set_unset v="0"/>
+                    <stype_set_unset v="0"/>
+                    <schar_24hr v="0"/>
+                    <sresp_24hr v="0"/>
+                    <sresp_trigger v="0"/>
+                    <sresp_panic v="10"/>
+                    <sresp_fire v="12"/>
+                    <sresp_medical v="7"/>
+                    <sresp_emergency v="11"/>
+                    <sresp_arm v="0"/>
+                    <sresp_home v="0"/>
+                    <sresp_disarm v="0"/>
+                    <sresp_switch_on v="0"/>
+                    <sresp_switch_off v="0"/>
+                    <mode_resp v="0">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="1">
+                        <mode v="5"/>
+                        <entry v="5"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="2">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="3">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="4">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                </z>
+                <z>
+                    <area v="1"/>
+                    <no v="5"/>
+                    <ty v="48"/>
+                    <su v="1"/>
+                    <n v="Power Switch"/>
+                    <id v="ZB:0ae4"/>
+                    <id2 v="ZM:00124b0002ccc028"/>
+                    <ver v="0"/>
+                    <cap v="0x1"/>
+                    <group v="0x0"/>
+                    <st v="0x0"/>
+                    <status_time v="2020-01-01 01:00:00"/>
+                    <status_rssi v="-1"/>
+                    <status_power v="N/A"/>
+                    <status_switch v="N/A"/>
+                    <status_total_energy v="N/A"/>
+                    <scond_bypass v="0"/>
+                    <schar_latch_rpt v="0"/>
+                    <schar_whole_area v="0"/>
+                    <schar_always_on v="0"/>
+                    <schar_set_unset v="0"/>
+                    <stype_set_unset v="0"/>
+                    <schar_24hr v="0"/>
+                    <sresp_24hr v="0"/>
+                    <sresp_trigger v="0"/>
+                    <sresp_panic v="10"/>
+                    <sresp_fire v="12"/>
+                    <sresp_medical v="7"/>
+                    <sresp_emergency v="11"/>
+                    <sresp_arm v="0"/>
+                    <sresp_home v="0"/>
+                    <sresp_disarm v="0"/>
+                    <sresp_switch_on v="0"/>
+                    <sresp_switch_off v="0"/>
+                    <mode_resp v="0">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="1">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="2">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="3">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="4">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                </z>
+                <z>
+                    <area v="1"/>
+                    <no v="6"/>
+                    <ty v="27"/>
+                    <su v="1"/>
+                    <n v="PIR Camera"/>
+                    <id v="ZB:9412"/>
+                    <id2 v="ZM:00124b0002702a6c"/>
+                    <ver v="0"/>
+                    <cap v="0x0"/>
+                    <group v="0x0"/>
+                    <st v="0x1"/>
+                    <status_time v="2020-01-01 01:00:00"/>
+                    <status_rssi v="5"/>
+                    <scond_bypass v="0"/>
+                    <schar_latch_rpt v="0"/>
+                    <schar_whole_area v="0"/>
+                    <schar_always_on v="0"/>
+                    <schar_set_unset v="0"/>
+                    <stype_set_unset v="0"/>
+                    <schar_24hr v="0"/>
+                    <sresp_24hr v="0"/>
+                    <sresp_trigger v="0"/>
+                    <sresp_panic v="10"/>
+                    <sresp_fire v="12"/>
+                    <sresp_medical v="7"/>
+                    <sresp_emergency v="11"/>
+                    <sresp_arm v="0"/>
+                    <sresp_home v="0"/>
+                    <sresp_disarm v="0"/>
+                    <sresp_switch_on v="0"/>
+                    <sresp_switch_off v="0"/>
+                    <mode_resp v="0">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="1">
+                        <mode v="5"/>
+                        <entry v="5"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="2">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="3">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="4">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                </z>
+                <z>
+                    <area v="1"/>
+                    <no v="8"/>
+                    <ty v="48"/>
+                    <su v="0"/>
+                    <n v="Fibaro Wall Plug"/>
+                    <id v="ZW:00000003"/>
+                    <id2 v=""/>
+                    <group v="0x0"/>
+                    <st v="0x0"/>
+                    <status_time v="2020-01-01 01:00:00"/>
+                    <status_rssi v="-1"/>
+                    <status_power v="N/A"/>
+                    <status_switch v="N/A"/>
+                    <status_total_energy v="N/A"/>
+                    <scond_bypass v="0"/>
+                    <schar_latch_rpt v="0"/>
+                    <schar_whole_area v="0"/>
+                    <schar_always_on v="0"/>
+                    <schar_set_unset v="0"/>
+                    <stype_set_unset v="0"/>
+                    <schar_24hr v="0"/>
+                    <sresp_24hr v="0"/>
+                    <sresp_trigger v="0"/>
+                    <sresp_panic v="10"/>
+                    <sresp_fire v="12"/>
+                    <sresp_medical v="7"/>
+                    <sresp_emergency v="11"/>
+                    <sresp_arm v="0"/>
+                    <sresp_home v="0"/>
+                    <sresp_disarm v="0"/>
+                    <sresp_switch_on v="0"/>
+                    <sresp_switch_off v="0"/>
+                    <mode_resp v="0">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="1">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="2">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="3">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="4">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                </z>
+                <z>
+                    <area v="1"/>
+                    <no v="7"/>
+                    <ty v="4"/>
+                    <su v="1"/>
+                    <n v="Fibaro Door Contact"/>
+                    <id v="ZW:00000004"/>
+                    <id2 v=""/>
+                    <group v="0x0"/>
+                    <st v="0x0"/>
+                    <status_time v="2020-01-01 01:00:00"/>
+                    <status_rssi v="-1"/>
+                    <status_open v="N/A"/>
+                    <scond_bypass v="0"/>
+                    <schar_latch_rpt v="1"/>
+                    <schar_whole_area v="0"/>
+                    <schar_always_on v="0"/>
+                    <schar_set_unset v="0"/>
+                    <stype_set_unset v="0"/>
+                    <schar_24hr v="0"/>
+                    <sresp_24hr v="0"/>
+                    <sresp_trigger v="0"/>
+                    <sresp_panic v="10"/>
+                    <sresp_fire v="12"/>
+                    <sresp_medical v="7"/>
+                    <sresp_emergency v="11"/>
+                    <sresp_arm v="0"/>
+                    <sresp_home v="0"/>
+                    <sresp_disarm v="0"/>
+                    <sresp_switch_on v="0"/>
+                    <sresp_switch_off v="0"/>
+                    <mode_resp v="0">
+                        <mode v="3"/>
+                        <entry v="3"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="1">
+                        <mode v="1"/>
+                        <entry v="1"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="2">
+                        <mode v="1"/>
+                        <entry v="1"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="3">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="4">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                </z>
+                <z>
+                    <area v="1"/>
+                    <no v="9"/>
+                    <ty v="51"/>
+                    <su v="0"/>
+                    <n v="Termostat Office"/>
+                    <id v="ZW:00000006"/>
+                    <id2 v=""/>
+                    <group v="0x0"/>
+                    <st v="0x0"/>
+                    <status_time v="2020-01-01 01:00:00"/>
+                    <status_rssi v="-1"/>
+                    <scond_bypass v="0"/>
+                    <schar_latch_rpt v="0"/>
+                    <schar_whole_area v="0"/>
+                    <schar_always_on v="0"/>
+                    <schar_set_unset v="0"/>
+                    <stype_set_unset v="0"/>
+                    <schar_24hr v="0"/>
+                    <sresp_24hr v="0"/>
+                    <sresp_trigger v="0"/>
+                    <sresp_panic v="10"/>
+                    <sresp_fire v="12"/>
+                    <sresp_medical v="7"/>
+                    <sresp_emergency v="11"/>
+                    <sresp_arm v="0"/>
+                    <sresp_home v="0"/>
+                    <sresp_disarm v="0"/>
+                    <sresp_switch_on v="0"/>
+                    <sresp_switch_off v="0"/>
+                    <mode_resp v="0">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="1">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="2">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="3">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="4">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                </z>
+                <z>
+                    <area v="1"/>
+                    <no v="10"/>
+                    <ty v="70"/>
+                    <su v="0"/>
+                    <n v="Door secure "/>
+                    <id v="ZW:00000008"/>
+                    <id2 v=""/>
+                    <group v="0x0"/>
+                    <st v="0x0"/>
+                    <status_time v="2020-01-01 01:00:00"/>
+                    <status_rssi v="-1"/>
+                    <status_open v="N/A"/>
+                    <scond_bypass v="0"/>
+                    <schar_latch_rpt v="0"/>
+                    <schar_whole_area v="0"/>
+                    <schar_always_on v="0"/>
+                    <schar_set_unset v="0"/>
+                    <stype_set_unset v="0"/>
+                    <schar_24hr v="0"/>
+                    <sresp_24hr v="0"/>
+                    <sresp_trigger v="0"/>
+                    <sresp_panic v="10"/>
+                    <sresp_fire v="12"/>
+                    <sresp_medical v="7"/>
+                    <sresp_emergency v="11"/>
+                    <sresp_arm v="0"/>
+                    <sresp_home v="0"/>
+                    <sresp_disarm v="0"/>
+                    <sresp_switch_on v="0"/>
+                    <sresp_switch_off v="0"/>
+                    <mode_resp v="0">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="1">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="2">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="3">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="4">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                </z>
+                <z>
+                    <area v="1"/>
+                    <no v="11"/>
+                    <ty v="9"/>
+                    <su v="1"/>
+                    <n v="fibaro motion test "/>
+                    <id v="ZW:0000000b"/>
+                    <id2 v=""/>
+                    <group v="0x0"/>
+                    <st v="0x0"/>
+                    <status_time v="2020-01-01 01:00:00"/>
+                    <status_rssi v="-1"/>
+                    <scond_bypass v="0"/>
+                    <schar_latch_rpt v="0"/>
+                    <schar_whole_area v="0"/>
+                    <schar_always_on v="0"/>
+                    <schar_set_unset v="0"/>
+                    <stype_set_unset v="0"/>
+                    <schar_24hr v="1"/>
+                    <sresp_24hr v="5"/>
+                    <sresp_trigger v="0"/>
+                    <sresp_panic v="10"/>
+                    <sresp_fire v="12"/>
+                    <sresp_medical v="7"/>
+                    <sresp_emergency v="11"/>
+                    <sresp_arm v="0"/>
+                    <sresp_home v="0"/>
+                    <sresp_disarm v="0"/>
+                    <sresp_switch_on v="0"/>
+                    <sresp_switch_off v="0"/>
+                    <mode_resp v="0">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="1">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="2">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="3">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="4">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                </z>
+                <z>
+                    <area v="1"/>
+                    <no v="12"/>
+                    <ty v="11"/>
+                    <su v="1"/>
+                    <n v="fibaro smoke "/>
+                    <id v="ZW:0000000d"/>
+                    <id2 v=""/>
+                    <group v="0x0"/>
+                    <st v="0x0"/>
+                    <status_time v="2020-01-01 01:00:00"/>
+                    <status_rssi v="-1"/>
+                    <scond_bypass v="0"/>
+                    <schar_latch_rpt v="0"/>
+                    <schar_whole_area v="0"/>
+                    <schar_always_on v="0"/>
+                    <schar_set_unset v="0"/>
+                    <stype_set_unset v="0"/>
+                    <schar_24hr v="1"/>
+                    <sresp_24hr v="12"/>
+                    <sresp_trigger v="0"/>
+                    <sresp_panic v="10"/>
+                    <sresp_fire v="12"/>
+                    <sresp_medical v="7"/>
+                    <sresp_emergency v="11"/>
+                    <sresp_arm v="0"/>
+                    <sresp_home v="0"/>
+                    <sresp_disarm v="0"/>
+                    <sresp_switch_on v="0"/>
+                    <sresp_switch_off v="0"/>
+                    <mode_resp v="0">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="1">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="2">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="3">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                    <mode_resp v="4">
+                        <mode v="0"/>
+                        <entry v="0"/>
+                        <exit v="0"/>
+                    </mode_resp>
+                </z>
+                <size v="12"/>
+            </x>
+        </cmd>
+    </cmds>
+</p>

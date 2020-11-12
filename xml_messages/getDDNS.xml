@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+    <mac v="*"/>
+    <cmds>
+        <referer v="panel/run"/>
+        <cmd a="getDDNS" id="*">
+            <ret>1</ret><m>OK</m>
+            <x>
+                <ddns v="http://checkip.dyndns.org"/>
+                <public_ip v="95.91.254.137"/>
+            </x>
+        </cmd>
+    </cmds>
+</p>
