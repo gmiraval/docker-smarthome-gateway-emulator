@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "f3bbf647-dbe8-4015-a0ca-81a44a0e8202",
+		"name": "CSide test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cside test sensor 1",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"e24cfe02008d1500\",\r\n    \"state\": \"PUERTA_DE_ENTRADA\",\r\n    \"type\": \"MOTION\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5051/setSensorById.json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5051",
+					"path": [
+						"setSensorById.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cside test sensor 2",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"e24cfe02008d1500\",\r\n    \"state\": \"VENTANA_FRENTE\",\r\n    \"type\": \"DOORLOCK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.0.154:5051/setSensorById.json",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"154"
+					],
+					"port": "5051",
+					"path": [
+						"setSensorById.json"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
