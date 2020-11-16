@@ -1,3 +1,3 @@
 echo "starting..."
 
-echo $product_id > /home/manufacturer/config.txt
+echo $product_id > /manufacturer/config.txt

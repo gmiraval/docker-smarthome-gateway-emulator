@@ -7,13 +7,15 @@ RUN apk add --no-cache \
             libwebsockets-dev \
             libxml2-dev
             
-COPY manufacturer /home/manufacturer
-COPY xml_messages /home/xml_messages
-COPY protocol_manager /home/
+COPY manufacturer /manufacturer
+COPY xml_messages /xml_messages
+COPY protocol_manager /
 
-ENV product_id="11:22:33:44:55:77"
+ENV product_id="11:22:33:44:55:00"
 
-ADD ./init_script.sh /home/init_script.sh
+ADD ./init_script.sh /init_script.sh
 
-RUN /home/init_script.sh
+RUN /init_script.sh
 
+#WORKDIR /home
+ENTRYPOINT ["./protocol_manager"]
