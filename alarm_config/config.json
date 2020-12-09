@@ -1,0 +1,180 @@
+{
+  "COD00": {
+    "name": "Code user 1",
+    "type": "CODE",
+    "password": "12345"
+  },
+  "LOC00": {
+    "name": "Door lock room 0",
+    "type": "DOORLOCK",
+    "zone": "Room 0",
+    "key": "doorlock key 0"
+  },
+  "LOC01": {
+    "name": "Door lock room 1",
+    "type": "DOORLOCK",
+    "zone": "Room 1",
+    "key": "doorlock key 1"
+  },
+  "LOC02": {
+    "name": "Door lock room 2",
+    "type": "DOORLOCK",
+    "zone": "Room 2",
+    "key": "doorlock key 2"
+  },
+  "LOC03": {
+    "name": "Door lock room 3",
+    "type": "DOORLOCK",
+    "zone": "Room 3",
+    "key": "doorlock key 3"
+  },
+  "LOC04": {
+    "name": "Door lock room 4",
+    "type": "DOORLOCK",
+    "zone": "Room 4",
+    "key": "doorlock key 4"
+  },
+  "PIR00": {
+    "name": "PIR sensor living 0",
+    "type": "MOTION",
+    "zone": "Living room 0",
+    "key": "PIR key 0"
+  },
+  "PIR01": {
+    "name": "PIR sensor living 1",
+    "type": "MOTION",
+    "zone": "Living room 1",
+    "key": "PIR key 1"
+  },
+  "PIR02": {
+    "name": "PIR sensor living 2",
+    "type": "MOTION",
+    "zone": "Living room 2",
+    "key": "PIR key 2"
+  },
+  "PIR03": {
+    "name": "PIR sensor living 3",
+    "type": "MOTION",
+    "zone": "Living room 3",
+    "key": "PIR key 3"
+  },
+  "PIR04": {
+    "name": "PIR sensor living 4",
+    "type": "MOTION",
+    "zone": "Living room 4",
+    "key": "PIR key 4"
+  },
+  "BUZ00": {
+    "name": "Buzzer long",
+    "type": "BUZZER",
+    "t_on": 500,
+    "t_off": 250
+  },
+  "SMS00": {
+    "name": "SMS to user 1",
+    "type": "SMS_NUM",
+    "phone": "12345678",
+    "text": "Alarm SMS triggered"
+  },
+  "EMA00": {
+    "name": "Email to user 1",
+    "type": "EMAIL",
+    "address": "example@domain.com",
+    "text": "Alarm EMAIL triggered"
+  },
+  "GRO00": {
+    "name": "Room sensors",
+    "type": "GROUP",
+    "zone": "First floor"
+  },
+  "RUL00": {
+    "name": "Rule alarm 00 arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "COD00HH&&(LOC00HH||PIR00HH)=BUZ00H+EMA00H"
+  },
+  "RUL01": {
+    "name": "Rule alarm 00 partial arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "COD00XX&&(LOC00HH||PIR00HH)=SMS00H"
+  },
+  "RUL02": {
+    "name": "Rule alarm 00 disarm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "(COD00XX||COD00HH)&&(LOC00LL||PIR00LL)=COD00L"
+  },
+  "RUL03": {
+    "name": "Rule alarm 01 arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "COD00HH&&(LOC01HH||PIR01HH)=BUZ00H+EMA00H"
+  },
+  "RUL04": {
+    "name": "Rule alarm 01 partial arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "COD00XX&&(LOC01HH||PIR01HH)=SMS00H"
+  },
+  "RUL05": {
+    "name": "Rule alarm 01 disarm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "(COD00XX||COD00HH)&&(LOC01LL||PIR01LL)=COD00L"
+  },
+  "RUL06": {
+    "name": "Rule alarm 02 arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "COD00HH&&(LOC02HH||PIR02HH)=BUZ00H+EMA00H"
+  },
+  "RUL07": {
+    "name": "Rule alarm 02 partial arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "COD00XX&&(LOC02HH||PIR02HH)=SMS00H"
+  },
+  "RUL08": {
+    "name": "Rule alarm 02 disarm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "(COD00XX||COD00HH)&&(LOC02LL||PIR02LL)=COD00L"
+  },
+  "RUL09": {
+    "name": "Rule alarm 03 arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "COD00HH&&(LOC03HH||PIR03HH)=BUZ00H+EMA00H"
+  },
+  "RUL10": {
+    "name": "Rule alarm 03 partial arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "COD00XX&&(LOC03HH||PIR03HH)=SMS00H"
+  },
+  "RUL11": {
+    "name": "Rule alarm 03 disarm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "(COD00XX||COD00HH)&&(LOC03LL||PIR03LL)=COD00L"
+  },
+  "RUL12": {
+    "name": "Rule alarm 04 arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "COD00HH&&(LOC04HH||PIR04HH)=BUZ00H+EMA00H"
+  },
+  "RUL13": {
+    "name": "Rule alarm 04 partial arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "COD00XX&&(LOC04HH||PIR04HH)=SMS00H"
+  },
+  "RUL14": {
+    "name": "Rule alarm 04 disarm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "(COD00XX||COD00HH)&&(LOC04LL||PIR04LL)=COD00L"
+  }
+}
