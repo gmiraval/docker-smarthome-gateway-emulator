@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "f3bbf647-dbe8-4015-a0ca-81a44a0e8202",
-		"name": "CSide test",
+		"_postman_id": "361b49df-17ee-49ac-9fff-21ba144b5279",
+		"name": "CSide sensors",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "Cside test sensor 1",
+			"name": "add/edit sensor",
 			"protocolProfileBehavior": {
 				"disabledSystemHeaders": {}
 			},
@@ -15,7 +15,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": \"e24cfe02008d1500\",\r\n    \"state\": \"PUERTA_DE_ENTRADA\",\r\n    \"type\": \"MOTION\"\r\n}",
+					"raw": "{\r\n    \"id\": \"123456789\",\r\n    \"type\": \"MOTION\",\r\n    \"state\": \"IDLE\"\r\n}\r\n/*\r\navailable types:    \"MOTION\"   \"DOORLOCK\"\r\n\r\navailable states:\r\n-\"DOORLOCK\": \"REGISTER\" \"OPEN\"      \"CLOSE\"\r\n-\"MOTION\":   \"REGISTER\" \"ACTIVATE\"  \"IDLE\"\r\n*/",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -23,10 +23,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5051/setSensorById.json",
+					"raw": "http://192.168.0.57:5051/setSensorById.json",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"192",
+						"168",
+						"0",
+						"57"
 					],
 					"port": "5051",
 					"path": [
@@ -37,16 +40,13 @@
 			"response": []
 		},
 		{
-			"name": "Cside test sensor 2",
-			"protocolProfileBehavior": {
-				"disabledSystemHeaders": {}
-			},
+			"name": "Set Alarm Status",
 			"request": {
 				"method": "PUT",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": \"e24cfe02008d1500\",\r\n    \"state\": \"VENTANA_FRENTE\",\r\n    \"type\": \"DOORLOCK\"\r\n}",
+					"raw": "{\n    \"mode\": \"ARM\"\n}\n/*\navailable modes:    \"ARM\"   \"PARTIAL_ARM\"   \"DISARM\"\n*/",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -54,17 +54,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.0.154:5051/setSensorById.json",
+					"raw": "http://localhost:5051/setAlarm.json",
 					"protocol": "http",
 					"host": [
-						"192",
-						"168",
-						"0",
-						"154"
+						"localhost"
 					],
 					"port": "5051",
 					"path": [
-						"setSensorById.json"
+						"setAlarm.json"
 					]
 				}
 			},
