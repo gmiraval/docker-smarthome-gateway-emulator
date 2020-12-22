@@ -2,11 +2,15 @@
 
 1- Build the docker
 (put version in major.minor form->  x.y)
+
 > docker build -t smarthome:x.y .
+
 > docker tag $(docker images -q smarthome:x.y) smarthome:latest
 
 example:
+
 > docker build -t smarthome:1.1 .
+
 > docker tag $(docker images -q smarthome:1.1) smarthome:latest
 
 2- Start the execution of the docker. The product_id (mac address) is configured via env var. 
