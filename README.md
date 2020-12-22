@@ -2,8 +2,8 @@
 
 1- Build the docker
 (put version in major.minor form->  x.y)
-> docker build -t smarthome:<version> .
-> docker tag $(docker images -q smarthome:<version>) smarthome:latest
+> docker build -t smarthome:x.y .
+> docker tag $(docker images -q smarthome:x.y) smarthome:latest
 
 example:
 > docker build -t smarthome:1.1 .
