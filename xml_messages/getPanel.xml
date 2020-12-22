@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <p>
-    <mac v="*"/>
+    <mac v="BB:BB:BB:CC:CC:CC"/>
     <cmds>
-        <referer v="panel/init"/>
+        <referer v="panel/run"/>
         <cmd a="getPanel" id="*">
             <ret>1</ret><m>OK</m>
             <x>

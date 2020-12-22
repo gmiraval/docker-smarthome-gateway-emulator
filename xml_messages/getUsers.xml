@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <p>
-    <mac v="*"/>
+    <mac v="BB:BB:BB:CC:CC:CC"/>
     <cmds>
         <referer v="panel/run"/>
         <cmd a="getUsers" id="*">
@@ -10,49 +10,11 @@
                     <no v="1"/>
                     <user>
                         <no v="1"/>
-                        <code v="9073"/>
-                        <name v="Vincent"/>
+                        <code v="1234"/>
+                        <name v="Alarmtest1"/>
                         <latch v="1"/>
                     </user>
-                    <duress>
-                        <code v=""/>
-                    </duress>
-                    <master>
-                        <code v="0699"/>
-                    </master>
-                    <tmp>
-                        <code v=""/>
-                        <latch v="0"/>
-                    </tmp>
-                    <guard>
-                        <code v=""/>
-                    </guard>
                 </area>
-                <area>
-                    <no v="2"/>
-                    <user>
-                        <no v="1"/>
-                        <code v="4321"/>
-                        <name v="user"/>
-                        <latch v="1"/>
-                    </user>
-                    <duress>
-                        <code v=""/>
-                    </duress>
-                    <master>
-                        <code v="2222"/>
-                    </master>
-                    <tmp>
-                        <code v=""/>
-                        <latch v="0"/>
-                    </tmp>
-                    <guard>
-                        <code v=""/>
-                    </guard>
-                </area>
-                <installer>
-                    <code v="7982"/>
-                </installer>
             </x>
         </cmd>
     </cmds>

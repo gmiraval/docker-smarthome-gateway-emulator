@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+	<mac v="BB:BB:BB:CC:CC:CC"/>
+	<cmds>
+		<referer v="panel/update"/>
+		<cmd a="rtLearnList" id="*">
+			<ret>1</ret>
+			<m>OK</m>
+			<x>
+				<s>
+					<time v="10:54:42"/>
+					<t v="9"/>
+					<id v="PIR56"/>
+					<r v="0"/>
+				</s>
+			</x>
+		</cmd>
+	</cmds>
+</p>

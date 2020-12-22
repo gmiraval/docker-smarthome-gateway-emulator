@@ -4,6 +4,8 @@
     "type": "CODE",
     "password": "12345"
   },
+
+
   "LOC00": {
     "name": "Door lock room 0",
     "type": "DOORLOCK",
@@ -34,6 +36,8 @@
     "zone": "Room 4",
     "key": "doorlock key 4"
   },
+
+
   "PIR00": {
     "name": "PIR sensor living 0",
     "type": "MOTION",
@@ -64,117 +68,348 @@
     "zone": "Living room 4",
     "key": "PIR key 4"
   },
-  "BUZ00": {
-    "name": "Buzzer long",
-    "type": "BUZZER",
-    "t_on": 500,
-    "t_off": 250
+
+
+  "WIF00": {
+    "name": "wlan0",
+    "type": "WIFI"
   },
+  "WIF01": {
+    "name": "wlan1",
+    "type": "WIFI"
+  },
+  "ETH00": {
+    "name": "eth0",
+    "type": "ETHERNET"
+  },
+  "LTE00": {
+    "name": "wwan0",
+    "type": "SIGNAL_LTE"
+  },
+
+
+  "LED00": {
+    "name": "Led 1 blink forever",
+    "type": "LEDS",
+    "id": "LED_1",
+    "t_on": 5,
+    "t_off": 5,
+    "timeout": 0
+  },
+  "LED01": {
+    "name": "Led 2 blink forever",
+    "type": "LEDS",
+    "id": "LED_2",
+    "t_on": 5,
+    "t_off": 5,
+    "timeout": 0
+  },
+  "LED02": {
+    "name": "Led 3 blink forever",
+    "type": "LEDS",
+    "id": "LED_3",
+    "t_on": 5,
+    "t_off": 5,
+    "timeout": 0
+  },
+  "LED03": {
+    "name": "Led 4 blink forever",
+    "type": "LEDS",
+    "id": "LED_4",
+    "t_on": 5,
+    "t_off": 5,
+    "timeout": 0
+  },
+  "LED04": {
+    "name": "Led 5 blink forever",
+    "type": "LEDS",
+    "id": "LED_5",
+    "t_on": 5,
+    "t_off": 5,
+    "timeout": 0
+  },
+  "LED05": {
+    "name": "Led 6 blink forever",
+    "type": "LEDS",
+    "id": "LED_6",
+    "t_on": 5,
+    "t_off": 5,
+    "timeout": 0
+  },
+  "LED06": {
+    "name": "Led green 7 blink forever",
+    "type": "LEDS",
+    "id": "LED_7_GREEN",
+    "t_on": 5,
+    "t_off": 5,
+    "timeout": 0
+  },
+  "LED07": {
+    "name": "Led red 7 blink forever",
+    "type": "LEDS",
+    "id": "LED_7_RED",
+    "t_on": 5,
+    "t_off": 5,
+    "timeout": 0
+  },
+
+
+  "BUZ00": {
+    "name": "Buzzer sound for 30 seconds",
+    "type": "BUZZER",
+    "t_on": 5,
+    "t_off": 5,
+    "timeout": 300
+  },
+
+
   "SMS00": {
     "name": "SMS to user 1",
     "type": "SMS_NUM",
     "phone": "12345678",
     "text": "Alarm SMS triggered"
   },
+
+
   "EMA00": {
     "name": "Email to user 1",
     "type": "EMAIL",
     "address": "example@domain.com",
     "text": "Alarm EMAIL triggered"
   },
+
+
   "GRO00": {
     "name": "Room sensors",
     "type": "GROUP",
     "zone": "First floor"
   },
+
+  
   "RUL00": {
-    "name": "Rule alarm 00 arm",
+    "name": "Alarm LOC00 arm",
     "type": "RULE",
     "enable": true,
-    "rule": "COD00HH&&(LOC00HH||PIR00HH)=BUZ00H+EMA00H"
+    "rule": "LOC00HH&&COD00HH=COD00H"
   },
   "RUL01": {
-    "name": "Rule alarm 00 partial arm",
+    "name": "Alarm LOC00 partial arm",
     "type": "RULE",
     "enable": true,
-    "rule": "COD00XX&&(LOC00HH||PIR00HH)=SMS00H"
+    "rule": "LOC00HH&&COD00XX=COD00H"
   },
   "RUL02": {
-    "name": "Rule alarm 00 disarm",
+    "name": "Alarm LOC00 disarm",
     "type": "RULE",
     "enable": true,
-    "rule": "(COD00XX||COD00HH)&&(LOC00LL||PIR00LL)=COD00L"
+    "rule": "LOC00LL||LOC00XX&&(COD00HH||COD00XX)=COD00L"
   },
   "RUL03": {
-    "name": "Rule alarm 01 arm",
+    "name": "Alarm PIR00 arm",
     "type": "RULE",
     "enable": true,
-    "rule": "COD00HH&&(LOC01HH||PIR01HH)=BUZ00H+EMA00H"
+    "rule": "PIR00HH&&COD00HH=COD00H"
   },
   "RUL04": {
-    "name": "Rule alarm 01 partial arm",
+    "name": "Alarm PIR00 partial arm",
     "type": "RULE",
     "enable": true,
-    "rule": "COD00XX&&(LOC01HH||PIR01HH)=SMS00H"
+    "rule": "PIR00HH&&COD00XX=COD00H"
   },
   "RUL05": {
-    "name": "Rule alarm 01 disarm",
+    "name": "Alarm PIR00 disarm",
     "type": "RULE",
     "enable": true,
-    "rule": "(COD00XX||COD00HH)&&(LOC01LL||PIR01LL)=COD00L"
+    "rule": "PIR00LL||PIR00XX&&(COD00HH||COD00XX)=COD00L"
   },
   "RUL06": {
-    "name": "Rule alarm 02 arm",
+    "name": "Alarm LOC01 arm",
     "type": "RULE",
     "enable": true,
-    "rule": "COD00HH&&(LOC02HH||PIR02HH)=BUZ00H+EMA00H"
+    "rule": "LOC01HH&&COD00HH=COD00H"
   },
   "RUL07": {
-    "name": "Rule alarm 02 partial arm",
+    "name": "Alarm LOC01 partial arm",
     "type": "RULE",
     "enable": true,
-    "rule": "COD00XX&&(LOC02HH||PIR02HH)=SMS00H"
+    "rule": "LOC01HH&&COD00XX=COD00H"
   },
   "RUL08": {
-    "name": "Rule alarm 02 disarm",
+    "name": "Alarm LOC01 disarm",
     "type": "RULE",
     "enable": true,
-    "rule": "(COD00XX||COD00HH)&&(LOC02LL||PIR02LL)=COD00L"
+    "rule": "LOC01LL||LOC01XX&&(COD00HH||COD00XX)=COD00L"
   },
   "RUL09": {
-    "name": "Rule alarm 03 arm",
+    "name": "Alarm PIR01 arm",
     "type": "RULE",
     "enable": true,
-    "rule": "COD00HH&&(LOC03HH||PIR03HH)=BUZ00H+EMA00H"
+    "rule": "PIR01HH&&COD00HH=COD00H"
   },
   "RUL10": {
-    "name": "Rule alarm 03 partial arm",
+    "name": "Alarm PIR01 partial arm",
     "type": "RULE",
     "enable": true,
-    "rule": "COD00XX&&(LOC03HH||PIR03HH)=SMS00H"
+    "rule": "PIR01HH&&COD00XX=COD00H"
   },
   "RUL11": {
-    "name": "Rule alarm 03 disarm",
+    "name": "Alarm PIR01 disarm",
     "type": "RULE",
     "enable": true,
-    "rule": "(COD00XX||COD00HH)&&(LOC03LL||PIR03LL)=COD00L"
+    "rule": "PIR01LL||PIR01XX&&(COD00HH||COD00XX)=COD00L"
   },
   "RUL12": {
-    "name": "Rule alarm 04 arm",
+    "name": "Alarm LOC02 arm",
     "type": "RULE",
     "enable": true,
-    "rule": "COD00HH&&(LOC04HH||PIR04HH)=BUZ00H+EMA00H"
+    "rule": "LOC02HH&&COD00HH=COD00H"
   },
   "RUL13": {
-    "name": "Rule alarm 04 partial arm",
+    "name": "Alarm LOC02 partial arm",
     "type": "RULE",
     "enable": true,
-    "rule": "COD00XX&&(LOC04HH||PIR04HH)=SMS00H"
+    "rule": "LOC02HH&&COD00XX=COD00H"
   },
   "RUL14": {
-    "name": "Rule alarm 04 disarm",
+    "name": "Alarm LOC02 disarm",
     "type": "RULE",
     "enable": true,
-    "rule": "(COD00XX||COD00HH)&&(LOC04LL||PIR04LL)=COD00L"
+    "rule": "LOC02LL||LOC02XX&&(COD00HH||COD00XX)=COD00L"
+  },
+  "RUL15": {
+    "name": "Alarm PIR02 arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "PIR02HH&&COD00HH=COD00H"
+  },
+  "RUL16": {
+    "name": "Alarm PIR02 partial arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "PIR02HH&&COD00XX=COD00H"
+  },
+  "RUL17": {
+    "name": "Alarm PIR02 disarm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "PIR02LL||PIR02XX&&(COD00HH||COD00XX)=COD00L"
+  },
+  "RUL18": {
+    "name": "Alarm LOC03 arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "LOC03HH&&COD00HH=COD00H"
+  },
+  "RUL19": {
+    "name": "Alarm LOC03 partial arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "LOC03HH&&COD00XX=COD00H"
+  },
+  "RUL20": {
+    "name": "Alarm LOC03 disarm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "LOC03LL||LOC03XX&&(COD00HH||COD00XX)=COD00L"
+  },
+  "RUL21": {
+    "name": "Alarm PIR03 arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "PIR03HH&&COD00HH=COD00H"
+  },
+  "RUL22": {
+    "name": "Alarm PIR03 partial arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "PIR03HH&&COD00XX=COD00H"
+  },
+  "RUL23": {
+    "name": "Alarm PIR03 disarm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "PIR03LL||PIR03XX&&(COD00HH||COD00XX)=COD00L"
+  },
+  "RUL24": {
+    "name": "Alarm LOC04 arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "LOC04HH&&COD00HH=COD00H"
+  },
+  "RUL25": {
+    "name": "Alarm LOC04 partial arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "LOC04HH&&COD00XX=COD00H"
+  },
+  "RUL26": {
+    "name": "Alarm LOC04 disarm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "LOC04LL||LOC04XX&&(COD00HH||COD00XX)=COD00L"
+  },
+  "RUL27": {
+    "name": "Alarm PIR04 arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "PIR04HH&&COD00HH=COD00H"
+  },
+  "RUL28": {
+    "name": "Alarm PIR04 partial arm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "PIR04HH&&COD00XX=COD00H"
+  },
+  "RUL29": {
+    "name": "Alarm PIR04 disarm",
+    "type": "RULE",
+    "enable": true,
+    "rule": "PIR04LL||PIR04XX&&(COD00HH||COD00XX)=COD00L"
+  },
+
+
+  "RUL30": {
+    "name": "Output triggered by ethernet",
+    "type": "RULE",
+    "enable": true,
+    "rule": "ETH00LH=LED00H+LED03H+LED06H+BUZ00H"
+  },
+  "RUL31": {
+    "name": "Output disable by ethernet",
+    "type": "RULE",
+    "enable": true,
+    "rule": "ETH00HL=LED00L+LED03L+LED06L+BUZ00L"
+  },
+
+  "RUL32": {
+    "name": "Output triggered by wifi 1",
+    "type": "RULE",
+    "enable": true,
+    "rule": "WIF00LH=LED01H+LED04H+LED07H+BUZ00H"
+  },
+  "RUL33": {
+    "name": "Output triggered by wifi 2",
+    "type": "RULE",
+    "enable": true,
+    "rule": "WIF01LH=LED01H+LED04H+LED07H+BUZ00H"
+  },
+  "RUL34": {
+    "name": "Output disable by wifi",
+    "type": "RULE",
+    "enable": true,
+    "rule": "WIF01HL=LED01L+LED04L+LED07L+BUZ00L"
+  },
+  
+  "RUL35": {
+    "name": "Output triggered by lte",
+    "type": "RULE",
+    "enable": true,
+    "rule": "LTE00LH=LED02H+LED05H+BUZ00H"
+  },
+  "RUL36": {
+    "name": "Output disable by lte",
+    "type": "RULE",
+    "enable": true,
+    "rule": "LTE00HL=LED02L+LED05L+BUZ00L"
   }
 }

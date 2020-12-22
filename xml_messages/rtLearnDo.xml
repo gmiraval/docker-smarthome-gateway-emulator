@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+	<mac v="BB:BB:BB:CC:CC:CC"/>
+	<cmds>
+		<referer v="panel/run"/>
+		<cmd a="rtLearnDo" id="*">
+			<ret>1</ret>
+			<m>OK</m>
+			<remain>295</remain>
+		</cmd>
+	</cmds>
+</p>

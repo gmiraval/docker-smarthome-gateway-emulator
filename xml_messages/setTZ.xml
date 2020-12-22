@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <p>
-    <mac v="*"/>
+    <mac v="BB:BB:BB:CC:CC:CC"/>
     <cmds>
         <referer v="panel/run"/>
         <cmd a="setTZ" id="*">

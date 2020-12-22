@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <p>
-    <mac v="{0}"/>
+    <mac v="BB:BB:BB:CC:CC:CC"/>
     <cmds>
         <referer v="panel/notify"/>
         <cmd a="getReportEvent" id="*">
@@ -10,12 +10,12 @@
                 <event>
                     <report_id v="36"/>
                     <id v=""/>
-                    <area v="0"/>
-                    <zone_user v="0"/>
-                    <new_event v="1"/>
-                    <cid_event v="602"/>
-                    <message v="Periodic Test"/>
-                    <time v="2020-10-01 04:48:16"/>
+                    <area v="1"/>
+                    <zone_user v="1"/>
+                    <new_event v="*"/>
+                    <cid_event v="*"/>
+                    <message v="*"/>
+                    <time v="2020-11-18 11:33:34"/>
                     <status v="0"/>
                     <comment v=""/>
                 </event>
