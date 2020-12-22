@@ -9,6 +9,6 @@ do
           iStr="$(printf '%04d' $i)"
 	  MAC="11:22:33:73:${iStr:0:2}:${iStr:2:2}"
 	  echo "Creando container sim$i"
-          docker run -d -p $i:5051 -e product_id=${MAC} --name sim$i smarthome:1.1
+          docker run -d -p $i:5051 -e product_id=${MAC} --name sim$i smarthome:$3
 done
 
